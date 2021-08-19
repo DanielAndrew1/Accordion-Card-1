@@ -176,7 +176,7 @@ label {
 
 #question-bold::after{
     position: absolute;
-    /* background-image: url(/images/icon-arrow-down.svg); */
+    background-image: url(images/icon-arrow-down.svg);
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(180deg);
@@ -222,7 +222,7 @@ label {
     padding: 30px;
     padding-left: 50px;
     padding-right: 60px;
-    /* background-image: url(/images/bg-pattern-desktop.svg); */
+    background-image: url(images/bg-pattern-desktop.svg);
     background-size:auto;
     background-repeat: no-repeat;
     background-position-x: -547px;
@@ -245,7 +245,7 @@ label {
     padding: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    background-image: url(/images/bg-pattern-mobile.svg);
+    background-image: url(images/bg-pattern-mobile.svg);
     background-size: 315px;
     background-position:top;
     background-repeat: no-repeat;
@@ -310,7 +310,7 @@ label {
         padding: 0px;
         padding-left: 0px;
         padding-right: 0px;
-        /* background-image: url(/images/bg-pattern-mobile.svg); */
+        background-image: url(images/bg-pattern-mobile.svg);
         background-size: 275px;
         background-position:top;
         background-repeat: no-repeat;
