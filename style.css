@@ -57,7 +57,6 @@ label {
     z-index: 1;
     top: 135px;
     left: -92px;
-    transition: 250ms ease-in all;
 }
 
 .img-woman {
@@ -67,6 +66,9 @@ label {
 #box-overflow-visible {
     overflow: hidden;
 }
+
+
+
 .box .right {
     padding: 50px 50px 50px 0;
     display: flex;
