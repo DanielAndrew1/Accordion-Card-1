@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 13px;
+    padding: 0;
+    color: #444;
+
+}
+div, button, a {
+  font-family: inherit;
+}
+
+.horizontal-rule {
+    width: 300px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+}
+
+.box {
+    display: flex;
+    justify-content:center;
+    margin-top: 115px;
+    width: 800px;
+    height: max-content;
+    background-color: white;
+    border-radius: 36px;
+    padding: 30px;
+    padding-left: 0;
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position-x: -547px;
+    background-position-y: -275px;
+    box-shadow: 1px 1px 8px #222;
+    transition: all 200ms ease;
+}
+
+.box .left {
+    margin-left: 24px;
+}
+
+label {
+    position: relative;
+}
+
+.img-box {
+    position: absolute;
+    z-index: 1;
+    top: 135px;
+    left: -92px;
+    transition: 250ms ease-in all;
+}
+
+.img-woman {
+    position: relative;
+    right: 76px;
+}
+#box-overflow-visible {
+    overflow: hidden;
+}
+.box .right {
+    padding: 50px 50px 50px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: 300ms ease all;
+}
+
+.box .right-heading h1{
+    font-size: 36px;
+    position: relative;
+    font-weight: bolder;
+    padding: 20px 20px 20px 0;
+    color: #000;
+}
+
+.box .right .right-divs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 300ms ease all;
+}
+
+.box .right .right-divs div {
+    display: flex;
+    flex-direction: column;
+    padding: 1px 1px;
+    transition: 300ms ease all;
+}
+
+.box .right p {
+    padding: 4px 1px 4px 0;
+    cursor: pointer;
+    transition: 300ms ease all;
+}
+.box .right p:hover {
+    padding: 4px 1px 4px 0;
+    cursor: pointer;
+    transition: 300ms ease all;
+    color: hsl(14, 88%, 65%);
+    transition: color 120ms ease;
+}
+.box .right p:active {
+    padding: 4px 1px 4px 0;
+    cursor: pointer;
+    transition: 300ms ease all;
+    color: hsl(14, 91%, 57%);
+    transition: color 10ms ease;
+}
+
+
+.box .right .hidden-para {
+    display: none;
+    width: 270px;
+    transition: 300ms ease all;
+    color: #777;
+    font-weight: 500;
+}
+.box .right .hidden-para:hover {
+    display: none;
+    transition: 300ms ease all;
+    color: #555;
+    font-weight: 500;
+}
+.box .right .label {
+    position: relative;
+    transition: 300ms ease all;
+}
+
+.questions::after {
+    position: absolute;
+    background-image: url(/images/icon-arrow-down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: '';
+    width: 15px;
+    height: 8px;
+    left: 285px;
+    bottom: 4px;
+    top: 6px;
+    transition: 400ms ease all;
+    transition-delay: 100ms;
+}
+
+/*
+==================================================================================================================================================================================================================
+==================================================================================================================================================================================================================
+//                    After clicking
+==================================================================================================================================================================================================================
+================================================================================================================================================================================================================== 
+*/
+
+
+#question-bold {
+    font-weight: bold;
+    color: #222;
+}
+#question-bold:hover {
+    font-weight: bold;
+    color: #000;
+}
+#question-bold:active {
+    font-weight: bold;
+    color: hsl(14, 91%, 57%);
+}
+
+
+#question-bold::after{
+    position: absolute;
+    background-image: url(/images/icon-arrow-down.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    content: '';
+    width: 15px;
+    height: 8px;
+    left: 281px;
+    bottom: 4px;
+    top: 6px;
+    transition: 400ms ease all;
+    transition-delay: 100ms;
+}
+
+#unhidden-para-1, 
+#unhidden-para-2, 
+#unhidden-para-3, 
+#unhidden-para-4, 
+#unhidden-para-5 {
+    display: initial;
+    position: relative;
+    width: 270px;
+    padding: 12px 2px;
+    cursor: pointer;
+}
+#unhidden-para-1:hover, 
+#unhidden-para-2:hover, 
+#unhidden-para-3:hover, 
+#unhidden-para-4:hover, 
+#unhidden-para-5:hover {
+    color: #333;
+}
+
+@media only screen and (max-width: 930px) {
+
+    .box {
+    display: flex;
+    justify-content:center;
+    margin-top: 105px;
+    width: 700px;
+    height: max-content;
+    background-color: white;
+    border-radius: 36px;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 60px;
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position-x: -547px;
+    background-position-y: -275px;
+    box-shadow: 1px 1px 8px #222;
+    transition: all 200ms ease;
+}
+}
+@media only screen and (max-width: 830px) {
+
+    .box {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 145px;
+    width: 400px;
+    height: max-content;
+    background-color: white;
+    border-radius: 36px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: url(/images/bg-pattern-mobile.svg);
+    background-size: 315px;
+    background-position:top;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 8px #222;
+    transition: all 200ms ease;
+    }
+
+    .box .left {
+        margin: auto;
+    }
+    #box-overflow-visible {
+        overflow: visible;
+        position: relative;
+        bottom: 134px;
+        width: 170px;
+    }
+    .img-woman {
+        position: absolute;
+        right: -60px;
+        width: 300px;
+    }
+        .img-box {
+            position: absolute;
+            width: 100px;
+            z-index: 1;
+            top: -35px;
+            left: -78px;
+            transition: 250ms ease-in all;
+        }
+
+        .box .right {
+            padding: 0px 30px 50px 50px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            transition: 300ms ease all;
+        }
+        
+        .box .right-heading h1{
+            font-size: 32px;
+            text-align: center;
+            margin-top: 140px;
+            position: relative;
+            font-weight: 900;
+            padding: 20px 20px 20px 0;
+            color: #000;
+        }
+    }
+
+
+    @media only screen and (max-width: 490px) {
+
+        .box {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-top: 145px;
+        width: 330px;
+        height: max-content;
+        background-color: white;
+        border-radius: 36px;
+        padding: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background-image: url(/images/bg-pattern-mobile.svg);
+        background-size: 275px;
+        background-position:top;
+        background-repeat: no-repeat;
+        box-shadow: 1px 1px 8px #222;
+        transition: all 200ms ease;
+        }
+        .horizontal-rule {
+            width: 260px;
+            margin-top: -2px;
+        }
+        
+
+        .box .left {
+            margin: auto;
+        }
+        #box-overflow-visible {
+            overflow: visible;
+            position: relative;
+            bottom: 134px;
+            width: 170px;
+        }
+        .img-woman {
+            position: absolute;
+            right: -50px;
+            width: 270px;
+        }
+            .img-box {
+                position: absolute;
+                width: 87px;
+                z-index: 1;
+                top: -46px;
+                left: -52px;
+                transition: 250ms ease-in all;
+            }
+            
+            .box .right {
+                padding: 0px 20px 60px 30px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                transition: 300ms ease all;
+            }
+            
+            .box .right-heading h1{
+                font-size: 32px;
+                text-align: center;
+                margin-top: 140px;
+                margin-bottom: 20px;
+                position: relative;
+                font-weight: 900;
+                padding: 20px 20px 20px 0;
+                color: #000;
+            }
+
+            .box .right .right-divs {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                transition: 300ms ease all;
+                padding-left: 3px;
+            }
+            
+            .box .right .right-divs div {
+                display: flex;
+                flex-direction: column;
+                transition: 300ms ease all;
+            }
+
+            .box .right .right-divs div p {
+                margin-bottom: 2px;
+            }
+
+
+            .questions::after {
+                position: absolute;
+                background-image: url(/images/icon-arrow-down.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                content: '';
+                width: 15px;
+                height: 8px;
+                left: 245px;
+                bottom: 4px;
+                top: 6px;
+                transition: 400ms ease all;
+                transition-delay: 100ms;
+            }
+            #question-bold::after{
+                position: absolute;
+                background-image: url(/images/icon-arrow-down.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+                transform: rotate(180deg);
+                content: '';
+                width: 15px;
+                height: 8px;
+                left: 245px;
+                bottom: 4px;
+                top: 6px;
+                transition: 400ms ease all;
+                transition-delay: 100ms;
+            }
+        }
