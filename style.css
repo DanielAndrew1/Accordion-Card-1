@@ -21,7 +21,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    width: 100%;
+    height: 680px;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
@@ -32,7 +33,7 @@ main {
     width: 800px;
     height: max-content;
     background-color: white;
-    border-radius: 12px;
+    border-radius: 22px;
     padding: 30px;
     padding-left: 0;
     background-image: url(images/bg-pattern-desktop.svg);
@@ -220,7 +221,6 @@ label {
     width: 700px;
     height: max-content;
     background-color: white;
-    border-radius: 36px;
     padding: 30px;
     padding-left: 50px;
     padding-right: 60px;
@@ -243,7 +243,6 @@ label {
     width: 400px;
     height: max-content;
     background-color: white;
-    border-radius: 36px;
     padding: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -308,7 +307,7 @@ label {
         width: 330px;
         height: max-content;
         background-color: white;
-        border-radius: 36px;
+        border-radius: 32px;
         padding: 0px;
         padding-left: 0px;
         padding-right: 0px;
