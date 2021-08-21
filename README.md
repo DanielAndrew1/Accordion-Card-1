@@ -1,4 +1,4 @@
-[Live Site](https://https://danielandrew1.github.io/Accordion-Card-1/)
+Live Site URL : [https://danielandrew1.github.io/Accordion-Card-1/](https://danielandrew1.github.io/Accordion-Card-1/)
 
 
 # Frontend Mentor - FAQ accordion card solution
@@ -28,7 +28,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Live Site](https://https://danielandrew1.github.io/Accordion-Card-1/)
 
 ## My process
