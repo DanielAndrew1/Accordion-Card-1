@@ -1,4 +1,4 @@
-Live Site URL : [https://danielandrew1.github.io/Accordion-Card-1/](https://danielandrew1.github.io/Accordion-Card-1/)
+Live Site URL : [https://dxnielXndrew.github.io/Accordion-Card-1/](https://dxnielXndrew.github.io/Accordion-Card-1/)
 
 
 # Frontend Mentor - FAQ accordion card solution
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Live Site](https://https://danielandrew1.github.io/Accordion-Card-1/)
+- Live Site URL: [Live Site](https://https://dxnielXndrew1.github.io/Accordion-Card-1/)
 
 ## My process
 
@@ -49,5 +49,7 @@ Users should be able to:
 ## Author
 
 - Personal Website - [realdma.tech](https://www.realdma.tech)
-- Frontend Mentor - [@danielandrew1](https://www.frontendmentor.io/profile/danielandrew1)
-- Twitter - [@yourusername](https://www.twitter.com/danny21769)
+- Frontend Mentor - [Daniel Andrew](https://www.frontendmentor.io/profile/DanielAndrew1)
+- Twitter - [DxnielXndrew](https://www.twitter.com/DxnielXndrew)
+- GitHub - [DxnielXndrew](https://github.com/DxnielXndrew)
+- Instagram - [dxniel_xndrew](https://www.instagram.com/dxniel_xndrew/)
